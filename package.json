@@ -1,4 +1,10 @@
 {
+  "name": "react-redux-from-beginning",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
