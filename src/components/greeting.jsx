@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 
 function Greeting(props) {
-  return (<div>Hi {props.name}</div>);
+  return (<div>Hi {props.name}!</div>);
 }
 
 Greeting.propTypes = {
