@@ -9,7 +9,7 @@ import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 
 const InnerMap = withGoogleMap(({ location, marker }) => (
   <GoogleMap
-    defaultZoom={15}
+    defaultZoom={14}
     defaultCenter={location}
     center={location}
   >
@@ -22,7 +22,7 @@ const Map = ({ location }) => (
     containerElement={(<div />)}
     mapElement={(<div className="map" />)}
     location={location}
-    marker={{ location }}
+    marker={{ position: location }}
   />
 );
 
