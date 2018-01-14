@@ -1,3 +1,11 @@
+/*
+props {
+  address: App.js
+  lat: App.js
+  lng: App.js
+}
+*/
+
 import React, { PropTypes } from 'react';
 
 const GeocodeResult = ({ address, lat, lng }) => (
