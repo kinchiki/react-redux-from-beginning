@@ -3,7 +3,8 @@ state {
   place: string(入力された文字列)
 }
 */
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class SearchForm extends Component {
   constructor(props) {

@@ -4,7 +4,8 @@ props {
 }
 */
 
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 
 const InnerMap = withGoogleMap(({ location, marker }) => (
