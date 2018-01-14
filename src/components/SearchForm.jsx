@@ -1,3 +1,8 @@
+/*
+state {
+  place: string(入力された文字列)
+}
+*/
 import React, { Component, PropTypes } from 'react';
 
 class SearchForm extends Component {
