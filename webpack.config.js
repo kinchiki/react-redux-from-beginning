@@ -1,5 +1,6 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 const publidDir = path.join(__dirname, '/public');
 module.exports = [
@@ -21,6 +22,12 @@ module.exports = [
         },
       }],
     },
+    plugins: [
+      new Dotenv({
+        path: './.env',
+        safe: false,
+      }),
+    ],
     resolve: {
       extensions: ['.js', '.jsx'],
     },
